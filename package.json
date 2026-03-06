@@ -1,0 +1,38 @@
+{
+  "name": "jeremy-fitness-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "discord.js": "^14.23.2",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "gpt-tokenizer": "^3.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "mysql2": "^3.14.1",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.6",
+    "nodemon": "^3.1.10",
+    "path": "^0.12.7",
+    "postmark": "^4.0.5",
+    "sequelize": "^6.37.7",
+    "sharp": "^0.34.4",
+    "stripe": "^18.5.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@react-native-community/cli": "^20.0.2"
+  }
+}
